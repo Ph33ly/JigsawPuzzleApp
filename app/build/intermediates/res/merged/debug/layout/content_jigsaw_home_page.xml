@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Modified by Brian -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_jigsaw_home_page"
+    android:orientation="vertical"
+    tools:context="com.example.csit451sapien.jigsaw.JigsawHomePage"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_weight="0"
+                    android:layout_marginTop="-30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upload_img"
+                    android:id="@+id/upload_imgBtn"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:layout_height="30dp"
+                    android:text="@string/click_below"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/gridLayout">
+
+                <ImageButton
+                    android:id="@+id/image1"
+                    android:src="@drawable/image1xxhdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/image2"
+                    android:src="@drawable/image2xxhdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1" />
+
+                <ImageButton
+                    android:id="@+id/image3"
+                    android:src="@drawable/image3xxhdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/image4"
+                    android:src="@drawable/image4xxhdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="-30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/log_out"
+                    android:id="@+id/button_logout"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/Users/Brian/Downloads/Programming/puzzleProject/six/Jigsaw/app/src/main/res/layout/content_jigsaw_home_page.xml -->

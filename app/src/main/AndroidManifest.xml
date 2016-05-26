@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.csit451sapien.jigsaw">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- need this permission when selecting images from gallery -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!--  -->
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:icon="@drawable/jig"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow">
+
+        <!-- this is the LOGIN FORM activity -->
+        <activity
+            android:name=".Login"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- this ends the LOGIN FORM activity -->
+        <!-- this ends the REGISTER FORM activity -->
+        <activity
+            android:name=".Register"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- this ends the REGISTER FORM activity -->
+        <!-- this is the HOME LANDING PAGE activity -->
+        <!-- this ends the HOME LANDING PAGE activity -->
+        <!-- this is the ERROR LOGIN PAGE activity (login not successful) -->
+        <activity
+            android:name=".ErrorLogin"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_error_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- this ends the ERROR LOGIN PAGE activity (login not successful) -->
+        <activity
+            android:name=".ImageUpload"
+            android:configChanges="keyboardHidden|screenSize"
+            android:label="@string/title_activity_image_upload"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JigsawHomePage"
+            android:label="@string/title_activity_jigsaw_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PuzzleHandler"
+            android:label="@string/title_activity_puzzle1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayPuzzle"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Statistics"
+            android:label="@string/title_activity_statistics"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

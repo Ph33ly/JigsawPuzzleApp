@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".JigsawHomePage">
+    <!-- android:showAsAction="always" -->
+    <!--
+    <item android:id="@+id/action_menu"
+        android:title="Menu"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+        -->
+    <!-- android:icon="@drawable/menu_icon" -->
+    <item android:id="@+id/register"
+        android:title="Register"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/about_us"
+        android:title="About us"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+</menu>

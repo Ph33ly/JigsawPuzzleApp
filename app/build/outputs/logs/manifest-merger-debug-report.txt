@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:2:1-88:12
+	xmlns:android
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:10:22-63
+application
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:13:5-86:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:14:9-35
+	android:uiOptions
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:20:9-53
+	android:icon
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:16:9-37
+	android:configChanges
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:15:9-70
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.example.csit451sapien.jigsaw.Login
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:23:9-33:20
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:26:13-45
+	android:configChanges
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:25:13-62
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:24:13-34
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.example.csit451sapien.jigsaw.Register
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:36:9-44:20
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:39:13-60
+	android:configChanges
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:38:13-62
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:37:13-37
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:43:23-69
+activity#com.example.csit451sapien.jigsaw.AboutUs
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:45:9-48:59
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:47:13-60
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:46:13-36
+activity#com.example.csit451sapien.jigsaw.ErrorLogin
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:53:9-57:59
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:56:13-63
+	android:configChanges
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:55:13-62
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:54:13-39
+activity#com.example.csit451sapien.jigsaw.ImageUpload
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:59:9-63:59
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:62:13-64
+	android:configChanges
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:61:13-62
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:60:13-40
+activity#com.example.csit451sapien.jigsaw.JigsawHomePage
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:64:9-67:59
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:66:13-68
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:67:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:65:13-43
+activity#com.example.csit451sapien.jigsaw.PuzzleHandler
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:68:9-77:20
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:70:13-59
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:69:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:72:13-76:29
+activity#com.example.csit451sapien.jigsaw.PlayPuzzle
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:78:9-81:58
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:80:13-45
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:79:13-39
+activity#com.example.csit451sapien.jigsaw.Statistics
+ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:82:9-85:68
+	android:label
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:84:13-62
+	android:theme
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml:83:13-39
+uses-sdk
+INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian\Downloads\Programming\puzzleProject\six\Jigsaw\app\src\main\AndroidManifest.xml

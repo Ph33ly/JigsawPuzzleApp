@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_about_us"
+    tools:context="com.example.csit451sapien.jigsaw.AboutUs"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+    <!-- made by rana -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/gridLayout">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mauricio"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="32dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mo_desc"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:textSize="32dp" />
+            <ImageView
+                android:id="@+id/image1xxhdp"
+                android:src="@drawable/image1xxhdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dave"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textSize="32dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dave_desc"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:textSize="32dp" />
+            <ImageView
+                android:id="@+id/image2xxhdp"
+                android:src="@drawable/image2xxhdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Rana"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:textSize="32dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rana_desc"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:textSize="32dp" />
+            <ImageView
+                android:id="@+id/image3xxhdp"
+                android:src="@drawable/image3xxhdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chris"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:textSize="32dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chris_desc"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:textSize="32dp" />
+            <ImageView
+                android:id="@+id/image4xxhdp"
+                android:src="@drawable/image4xxhdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="0"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Brian"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:textSize="32dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brian_desc"
+                android:layout_row="9"
+                android:layout_column="1"
+                android:textSize="32dp" />
+            <ImageView
+                android:id="@+id/image4xxhdp"
+                android:src="@drawable/image4xxhdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="0"
+                />
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
+

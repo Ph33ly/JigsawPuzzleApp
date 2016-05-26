@@ -1,0 +1,42 @@
+<resources>
+    <!-- strings added by mauricio-->
+    <!-- strings added by rana-->
+    <!-- strings added by chris-->
+    <!-- strings added by brian-->
+
+    <string name="app_name">Jigsaw</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Jigsaw Register</string>
+    <string name="title_activity_jigsaw_home_page">Jigsaw Home</string>
+    <string name="title_activity_error_login">Jigsaw ErrorLogin</string>
+    <string name="title_activity_image_upload">ImageUpload</string>
+    <string name="title_activity_puzzle1">Jigsaw</string>
+    <string name="errorMsg">Unfortunately either the password or username you have typed does not match what we have...
+    please re-enter your credentials or register again, thankyou!</string>
+    <string name="title_activity_puzzle_handler2">PuzzleHandler2</string>
+
+    <string name="upload_img">Upload Image</string>
+    <string name="play_img">Play With Image</string>
+    <string name="choose_img">Choose Image</string>
+    <string name="click_below">Or Click Below!</string>
+    <string name="log_out">Log Out</string>
+    <string name="img_chosen">Image Chosen</string>
+    <string name="choose_diff">Choose Difficulty Level</string>
+    <string name="change_diff">Change Difficulty</string>
+    <string name="Picture_choice1">Picture_choice1</string>
+    <string name="Picture_choice2">Picture_choice2</string>
+    <string name="title_activity_about_us">CSIT451 Group</string>
+    <string name="mo_desc">"Project
+        Manager"</string>
+    <string name="dave_desc">"Market
+                              Researcher"</string>
+    <string name="rana_desc">"Lead
+        Design"</string>
+
+    <string name="chris_desc">"Lead
+                               Programmer"</string>
+    <string name="brian_desc">"Project
+                               Architect"</string>
+    <string name="title_activity_statistics">Statistics</string>
+
+</resources>
